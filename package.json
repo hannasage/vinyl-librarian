@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn src/index.ts"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.1.0",
+    "@langchain/anthropic": "^0.1.0",
+    "@langchain/langgraph": "^0.0.6",
+    "dotenv": "^16.3.1"
+  }
+}
