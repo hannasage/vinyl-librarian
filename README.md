@@ -1,4 +1,4 @@
-# Vinyl Record Collection Agent
+# Vinyl Librarian
 
 A LangGraph-powered agent that automatically processes vinyl record purchase emails and maintains a personal vinyl collection database. The agent uses AI to extract structured data from email receipts, matches or creates artist records, and stores album information in a Supabase database.
 
@@ -12,6 +12,5 @@ A LangGraph-powered agent that automatically processes vinyl record purchase ema
 
 ## Technologies
 - **Framework**: LangGraph
-- **AI/ML**: 
-  - Anthropic's Claude 3.5 Sonnet for NLP
+- **AI/ML**: Anthropic's Claude 3.5 Sonnet for NLP
 - **Monitoring**: LangSmith
